@@ -1,0 +1,86 @@
+{
+    "dart.lineLength": 120,
+    "[dart]": {
+        "editor.rulers": [
+            120
+        ],
+    },
+    "dart.additionalAnalyzerFileExtensions": [
+        "drift"
+    ],
+    "git.showPushSuccessNotification": true,
+    "git.enableStatusBarSync": true,
+    "git.openAfterClone": "alwaysNewWindow",
+    "git.pruneOnFetch": true,
+    "git.pullBeforeCheckout": true,
+    "git.smartCommitChanges": "all",
+    "editor.stickyScroll.enabled": true,
+    "explorer.fileNesting.enabled": true,
+    "debug.console.collapseIdenticalLines": false,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml, flutter_*.yaml, icons_launcher.yaml",
+        ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+        "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+        "*.dart": "$(capture).g.dart,$(capture).gr.dart, $(capture).freezed.dart, $(capture).config.dart",
+        "*.graphql": "$(capture).gql.dart, $(capture).*.gql.dart",
+        "schema.graphql": "schema.schema.gql.dart",
+        "firebase.json": ".firebaserc"
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.telemetryLevel": "off",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "editor.formatOnSave": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "[git-commit]": {
+        "editor.semanticHighlighting.enabled": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "git.showProgress": true,
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.inlayHints.enabled": "off",
+    "explorer.confirmDelete": false,
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "explorer.confirmDragAndDrop": false,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.commandCenter": false,
+    "git.rebaseWhenSync": true,
+    "git-graph.dialog.rebase.launchInteractiveRebase": true,
+    "git.ignoreRebaseWarning": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "dart_data_class_generator.hashCode.use_jenkins": true,
+    "apc.imports": [
+        "${userHome}/.vscode-oss/extensions/kitsuniru.kitsuniru-theme-0.0.1/custom_aura.css",
+    ],
+    "apc.iframe.style": "${userHome}/.vscode-oss/extensions/kitsuniru.kitsuniru-theme-0.0.1/themes/kitsuniru-dark-color-theme.json",
+    "symbols.hidesExplorerArrows": false,
+    "material-icon-theme.folders.color": "#90a4ae",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.useShadowDOM": false,
+    "dart.checkForSdkUpdates": false,
+    "workbench.colorTheme": "Kitsuniru Theme",
+}

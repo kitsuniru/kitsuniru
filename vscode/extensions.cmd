@@ -1,0 +1,12 @@
+codium --install-extension aaron-bond.better-comments
+codium --install-extension carlthome.git-line-blame
+codium --install-extension dart-code.dart-code
+codium --install-extension dart-code.flutter
+codium --install-extension dotup.dart-data-class-generator
+codium --install-extension drcika.apc-extension
+codium --install-extension mhutchie.git-graph
+codium --install-extension pflannery.vscode-versionlens
+codium --install-extension pkief.material-icon-theme
+codium --install-extension shyykoserhiy.git-autoconfig
+codium --install-extension usernamehw.errorlens
+codium --install-extension wassim-k.rename-replace-extension
